@@ -31,13 +31,13 @@ public class MessageServiceImpl implements MessageService {
 	@Override
 	public Message getMessageByMessageID(Integer msgID) {
 		// TODO Auto-generated method stub
-		return null;
+		return messageDAO.getMessageByMessageID(msgID);
 	}
 
 	@Override
 	public List<Message> getMessageBetweenDate(Date fromDate, Date toDate) {
 		// TODO Auto-generated method stub
-		return null;
+		return messageDAO.getMessageBetweenDate(fromDate, toDate);
 	}
 
 	@Override
